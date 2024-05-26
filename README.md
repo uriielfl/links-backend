@@ -1,8 +1,8 @@
 # Glossário
-- [Dependências](#Dependências)
-- [Instalação de dependências](#Instalação)
-- [Executando o projeto](#Executando)
-- [Formatando o código](#Formatando)
+- [Dependências](#dependências)
+- [Instalação de dependências](#instalação-de-dependências)
+- [Executando o projeto](#executando-o-projeto)
+- [Formatando o código](#formatando-o-código)
 
 # Dependências:
 - [NestJS v10](https://docs.nestjs.com/)
@@ -38,8 +38,9 @@ Caso for rodar a aplicação via docker, lembre-se de preencher o arquivo `.env`
 Exemplo:
 - Local:
 .env:
+```
 DATABASE_HOST=localhost
-
+```
 - Via docker:
 .env:
 DATABASE_HOST=db
